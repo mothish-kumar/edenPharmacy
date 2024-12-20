@@ -1,0 +1,101 @@
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    gap: 2%;
+}
+
+.item1{
+    height: 266.64px;
+    flex: 0 0 40%;
+}
+.item2, .item3 {
+    height: 266.64px;
+    flex: 0 0 calc(30% - 2%); 
+}
+.item4, .item5, .item6{
+    height: 266.64px;
+    flex: 0 0 calc(30% - 2%); 
+}
+.item7{
+    height: 266.64px; 
+    flex: 0 0 calc(20%-2%);
+}
+.title{
+    margin-top: 2px;
+    font-size:15px;
+    color: #17414F;
+    font-weight:bolder;
+    margin-left:5px;
+}
+.heading{
+    margin-top:10px;
+    color: #17414F;
+    font-weight: bold;
+    font-size: 45px;
+}
+.blockquote{
+    margin-top:10px;
+    color:#727272;
+    word-wrap: break-word;
+}
+
+.item2{
+    background-image: url('/asserts/vitaminCIcon.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.item3{
+    background-image: url('/asserts/vitaminB3Icon.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.item4{
+    margin-top:20px;
+    background-image: url('/asserts/magnesiumIcon.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.item5{
+    margin-top:20px;
+    background-image: url('/asserts/hyaluronicAcidIcon.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.item6{
+    margin-top:20px;
+    background-image: url('/asserts/lactobacillusIcon.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.image{
+    margin-top:20px;
+}
+
+.titleName{
+    color: #17414F;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top:30px;
+    margin-left:20px;
+}
+.description{
+    color:#727272;
+    margin-top:5px;
+    margin-left:20px;
+}
+
+.seeMore{
+    margin-left:20px;
+    margin-top:88.33px;
+    padding: 3px;
+    color:#003569;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size:14px;
+    font-weight: bolder;
+}

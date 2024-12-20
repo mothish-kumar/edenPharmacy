@@ -1,0 +1,59 @@
+.footerContainer{
+    margin-left:12px;
+    margin-right:12px;
+    background-color: #17414F;
+    margin-top:12px;
+    height: 387px;
+    margin-bottom: 20px;
+}
+.flexContainer{
+    display: flex;
+    flex-wrap:wrap;
+    gap:2%;
+
+}
+.item1,.item2,.item3{
+    background-color: #215D72;
+    color: white;
+    display: flex;
+    flex: 0 0 calc(25.3%);
+    height:100px;
+    border-radius: 15px;
+    margin-top:33px;
+    
+}
+.img{
+    width: 60px;
+    height: 61px;
+    margin-left:50px;
+    margin-top:20px;
+}
+.item1{
+    margin-left: 211px;
+}
+.textArea{
+    margin-top:20px;
+    padding:5px 0 6px 45px 
+}
+.imgLogo{
+    margin-top: 70px;
+    margin-left : 220px
+}
+.item5{
+    color: white;
+    margin-left:730px;
+    margin-right:682px;
+    margin-top:-78px;
+    word-wrap:break-word;
+    line-height: 1.5;
+}
+.location{
+    display: flex;
+    color:white;
+    gap: 1%;
+    margin-top:60px;
+
+}
+.locIcon{
+    margin-left: 220px;
+}

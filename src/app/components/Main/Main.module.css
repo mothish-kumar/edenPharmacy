@@ -1,0 +1,118 @@
+.mainContainer{
+    background-color: #E2F5FB;
+    height: 100vh;
+    margin-left:12px;
+    margin-right:12px;
+}
+.titleCard{
+    color: #003569;
+    text-align: center;
+    font-size:350%;
+    position:relative;
+    top: 26px;
+}
+.flexContainer{
+    display:flex;
+    justify-content:space-evenly;
+}
+.infoLeftContainer{
+    position:relative;
+    top:200px;
+}
+.infoLeftContainer .line1{
+    color: #727272;
+    font-size: 35px;
+}
+.infoLeftContainer .line2{
+    color:#17414F;
+    font-size: 40px;
+}
+.exploreBtn{
+    background-color: #17414F;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-top:15px;
+    font-weight: bolder;
+}
+.logoContainer{
+    position: relative;
+    height: 480px;
+}
+.backgroundImg{
+   position: absolute;
+   bottom: 0;
+   left:50%;
+   transform: translateX(-50%);
+   z-index:1;
+  
+}
+.centerLogoImg{
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.vitaminsContainer{
+    margin-top:150px;
+}
+.vitaminsContainer,.weightLossContainer,.functionalFoodsContainer{
+    display:flex;
+    align-items:center;
+    gap: 2%;
+}
+.infoTextCard h3{
+    color: #17414F;
+    font-size:25px;
+}
+.weightLossContainer,.functionalFoodsContainer{
+    margin-top:25px;
+}
+
+.subMainContainer{
+    background-color: #17414F;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border-radius: 70px;
+    margin-top:-200px;
+    width:80%;
+}
+.item1Container,.item2Container,.item3Container,.item4Container,.item5Container,.item6Container{
+    text-align: center;
+    padding:10px;
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box;
+}
+.textArea{
+    max-width: 100%;
+}
+.iconTitle{
+    font-size: 25px;
+    font-weight: bolder;
+    white-space: normal;
+    word-wrap:break-word;
+    margin-bottom:10px;
+}
+.para{
+    max-width:300px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    margin:auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+.item1Container,.item2Container,.item3Container{
+    margin-top:-70px;
+    margin-bottom:30px;
+}

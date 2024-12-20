@@ -1,0 +1,34 @@
+.item {
+    margin-top: 68px;
+    background-repeat: no-repeat;
+    position: relative; 
+    border-radius: 20px;
+    width: 390px;
+  }
+  
+  .batch {
+    background-color: #003569;
+    color: white;
+    display: inline-block;
+    padding: 7px 30px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  
+  .line1 {
+    color: white;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 13px;
+    font-size: 20px;
+  }
+  
+  .line2 {
+    color: white;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: 20px;
+  }
